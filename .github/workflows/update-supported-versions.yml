@@ -27,7 +27,6 @@ jobs:
           sparse-checkout: |
             supported-versions.txt
           sparse-checkout-cone-mode: false
-          persist-credentials: false
 
       - name: Append and sort tag
         run: |
